@@ -1,0 +1,35 @@
+﻿{
+  "name": "der/die/daStandard.at Tweaker",
+  "version": "0.0.0.2",
+  "manifest_version": 2,
+  "update_url": "https://raw.github.com/0-07/derdiedaStandard.at-Tweaker/master/derdiedaStandard.at-Tweaker_update.xml",
+  "description": "Fuegt auf der/die/daStandard.at einige nuetzliche Funktionen hinzu. (Autoren: madin357, schulze.arni)",
+  "content_scripts": [
+    {
+      "matches": ["http://*.derstandard.at/*", "http://*.diestandard.at/*", "http://*.dastandard.at/*"],
+      "all_frames": true,
+      "js": ["jquery.min.js","globals.js","content.js"],
+      "run_at": "document_end"
+    }
+  ],
+   "page_action": {
+      "default_icon": "icon16-12.png",
+      "default_popup": "options.html",
+      "default_title": "derStandardAT Optionen"
+   },
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+  "permissions": [
+    "tabs", "storage"
+  ],
+   "web_accessible_resources": [
+    "script1.js",
+	"script2.js"
+  ],
+  "background": {
+      "scripts": [ "background.js" ]
+   }
+}
