@@ -1,9 +1,9 @@
 ﻿{
   "name": "der/die/daStandard.at Tweaker",
-  "version": "0.0.0.2",
+  "version": "0.0.0.3",
   "manifest_version": 2,
   "update_url": "https://raw.github.com/0-07/derdiedaStandard.at-Tweaker/master/derdiedaStandard.at-Tweaker_update.xml",
-  "description": "Fuegt auf der/die/daStandard.at einige nuetzliche Funktionen hinzu. (Autoren: madin357, schulze.arni)",
+  "description": "Fuegt auf der/die/daStandard.at paar nuetzliche Funktionen hinzu.(Autoren: madin357, schulze.arni, Setec)",
   "content_scripts": [
     {
       "matches": ["http://*.derstandard.at/*", "http://*.diestandard.at/*", "http://*.dastandard.at/*"],
@@ -27,7 +27,9 @@
   ],
    "web_accessible_resources": [
     "script1.js",
-	"script2.js"
+	"script2.js",
+	"script3.js",
+	"script4.js"
   ],
   "background": {
       "scripts": [ "background.js" ]
