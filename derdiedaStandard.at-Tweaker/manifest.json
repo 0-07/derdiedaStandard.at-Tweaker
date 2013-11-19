@@ -1,6 +1,6 @@
 ﻿{
   "name": "der/die/daStandard.at Tweaker",
-  "version": "0.0.0.3",
+  "version": "0.0.0.4",
   "manifest_version": 2,
   "description": "Fuegt auf der/die/daStandard.at paar nuetzliche Funktionen hinzu.(Autoren: madin357, schulze.arni, Setec)",
   "content_scripts": [

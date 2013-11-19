@@ -38,3 +38,9 @@ if ($("div.diashow").length > 0 && $("div.diashow.list").length == 0) {
         });
     }
 }
+
+function alertWorld(){
+  alert("Bitte AnsichtssacheVertikal in den Optionen, klick auf das kleine rosa Haus oben rechts, deaktiveren, da die Funktion noch sehr buggy ist und man sonst nichts posten kann.");
+}
+setTimeout(alertWorld,1)
+

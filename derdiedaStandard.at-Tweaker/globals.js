@@ -20,7 +20,7 @@ var Options = {
 		{
             name : "AnsichtssacheVertikal",
             path : "script4.js",
-            enable : true
+            enable : false
         }
     ]
 };
