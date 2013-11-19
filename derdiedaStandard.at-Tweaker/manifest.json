@@ -2,7 +2,6 @@
   "name": "der/die/daStandard.at Tweaker",
   "version": "0.0.0.3",
   "manifest_version": 2,
-  "update_url": "https://raw.github.com/0-07/derdiedaStandard.at-Tweaker/master/derdiedaStandard.at-Tweaker_update.xml",
   "description": "Fuegt auf der/die/daStandard.at paar nuetzliche Funktionen hinzu.(Autoren: madin357, schulze.arni, Setec)",
   "content_scripts": [
     {
